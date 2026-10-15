@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Пачка чая с ананасовым улуном">
+<rect width="600" height="600" fill="#e9efdc"/>
+<circle cx="300" cy="320" r="230" fill="#dbe5c6"/>
+<g transform="translate(210 110)"><rect width="180" height="300" rx="14" fill="#2f4a2c"/><rect x="14" y="14" width="152" height="272" rx="8" fill="none" stroke="#e8a317" stroke-width="2"/>
+<ellipse cx="90" cy="120" rx="44" ry="56" fill="#e8a317"/><path d="M90 64 70 30M90 64l0-40M90 64l20-34" stroke="#7da34b" stroke-width="8" stroke-linecap="round"/>
+<text x="90" y="215" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#fff">Ананасовый</text><text x="90" y="244" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#fff">улун</text></g>
+<g fill="#7da34b"><path d="M90 470q40-50 90-20-30 50-90 20z"/><path d="M440 480q50-40 80 0-40 40-80 0z"/><path d="M130 520q30-30 70-10-20 35-70 10z"/></g>
+</svg>

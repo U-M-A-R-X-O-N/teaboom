@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ананасовый улун — купить чай | Teaboom.ru</title>
+  <meta name="description" content="Ананасовый улун: ароматный чай с тропическими нотами. Фасовка от 100 г.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Lora:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="breadcrumbs" aria-label="Хлебные крошки">
+      <ol>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Улун</a></li>
+        <li aria-current="page">Ананасовый улун</li>
+      </ol>
+    </nav>
+
+    <article class="product" id="product">
+      <figure class="product__media">
+        <img src="assets/product.svg" width="600" height="600" alt="Ананасовый улун — упаковка и чайный лист">
+      </figure>
+
+      <div class="product__info">
+        <p class="product__category"><a href="#">Улун</a></p>
+        <h1 class="product__title">Ананасовый улун</h1>
+        <p class="product__sku">Артикул: <span id="sku">01306</span></p>
+
+        <fieldset class="weights">
+          <legend class="weights__legend">Фасовка</legend>
+          <div class="weights__list" id="weights"></div>
+        </fieldset>
+
+        <div class="price" aria-live="polite">
+          <span class="price__current" id="price-current"></span>
+          <s class="price__old" id="price-old"></s>
+          <span class="price__badge" id="price-badge"></span>
+        </div>
+
+        <button class="btn" type="button" id="add-to-cart">В корзину</button>
+        <p class="product__status" id="status" role="status"></p>
+
+        <section class="product__desc" aria-labelledby="desc-title">
+          <h2 id="desc-title">О чае</h2>
+          <p>Светлый улун с сочным тропическим ароматом спелого ананаса и сладким послевкусием. Настой мягкий, без горечи — хорош и горячим, и холодным.</p>
+          <ul>
+            <li>Заваривание: 90–95 °C, 3–5 минут</li>
+            <li>Можно заваривать 3–4 раза</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
